@@ -202,7 +202,7 @@ print("\u{2d}", terminator: " ")
 }
 
 for _ in 1...5 {
-print("\n|",terminator: "")
+print("\n\u{7c}",terminator: "")
 for _ in 1...9 {
 print("\u{2698}", terminator: "\u{7c}")
 }
